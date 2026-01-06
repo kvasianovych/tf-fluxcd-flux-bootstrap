@@ -2,7 +2,7 @@ provider "flux" {
   kubernetes = {
     host                   = var.config_host
     cluster_ca_certificate = var.config_ca
-    token                  = var.config.token
+    token                  = var.config_token
   }
 
   git = {
