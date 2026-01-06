@@ -56,7 +56,7 @@ variable "config_ca" {
   description = "CA for a cluster."
 }
 
-variable "cluster_token" {
+variable "config_token" {
   type        = string
   default     = ""
   description = "Token to authenticate against GKE cluster with."
