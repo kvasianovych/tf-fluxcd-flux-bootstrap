@@ -52,6 +52,12 @@ variable "config_crt" {
 
 variable "config_ca" {
   type        = string
-  default     = "CA"
+  default     = ""
   description = "CA for a cluster."
+}
+
+variable "cluster_token" {
+  type        = string
+  default     = ""
+  description = "Token to authenticate against GKE cluster with."
 }
